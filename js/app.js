@@ -29,7 +29,6 @@ function onMouseMove (event) {
     console.log('creating')
      ctx.lineTo(x, y);
      ctx.stroke();
-     ctx.closePath();
   }
 }
 
